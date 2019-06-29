@@ -13,3 +13,13 @@ git remote add origin https://github.com/doxylabs/hello-world.git
 git push -u origin master
 ```
 
+
+After making some changes in a directory, add changes to the commit, then commit:
+
+```
+git add .
+git commit -m "adding info from github.com"
+git push origin
+```
+
+
