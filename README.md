@@ -22,4 +22,13 @@ git commit -m "adding info from github.com"
 git push origin
 ```
 
+Receivng changes from elsewhere:
+
+```
+git pull
+```
+
+This will require a commit to your local directory if you have two places you're working on this code. This will not overwrite the original commit date.
+
+
 
