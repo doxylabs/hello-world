@@ -22,6 +22,13 @@ git commit -m "adding info from github.com"
 git push origin
 ```
 
+Undoing the commit and pushing the undo:
+
+```
+git reset --hard HEAD~
+git push origin +master
+```
+
 Receivng changes from elsewhere:
 
 ```
